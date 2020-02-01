@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E41ADA29EED3EC6A8AD0F71 /* Pods_Toonkung.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00ED98F6715EAB1EB68C759 /* Pods_Toonkung.framework */; };
 		C80B3C7923E146BC00BCE7BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3C7823E146BC00BCE7BC /* AppDelegate.swift */; };
 		C80B3C7B23E146BC00BCE7BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3C7A23E146BC00BCE7BC /* SceneDelegate.swift */; };
-		C80B3C7D23E146BC00BCE7BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3C7C23E146BC00BCE7BC /* ViewController.swift */; };
+		C80B3C7D23E146BC00BCE7BC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3C7C23E146BC00BCE7BC /* WelcomeViewController.swift */; };
 		C80B3C8023E146BC00BCE7BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80B3C7E23E146BC00BCE7BC /* Main.storyboard */; };
 		C80B3C8223E146BE00BCE7BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80B3C8123E146BE00BCE7BC /* Assets.xcassets */; };
-		C80B3C8523E146BE00BCE7BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80B3C8323E146BE00BCE7BC /* LaunchScreen.storyboard */; };
+		C81247B823E1CDDA00B24CA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C81247B723E1CDD900B24CA5 /* GoogleService-Info.plist */; };
+		C81247BB23E1D11900B24CA5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81247B923E1D11900B24CA5 /* TableViewCell.swift */; };
+		C81247BC23E1D11900B24CA5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81247BA23E1D11900B24CA5 /* TableViewCell.xib */; };
+		C81247BE23E1DAFF00B24CA5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81247BD23E1DAFF00B24CA5 /* Post.swift */; };
+		C81247E423E1EF7D00B24CA5 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81247E323E1EF7D00B24CA5 /* TimelineViewController.swift */; };
+		C81247E623E1FA4600B24CA5 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81247E523E1FA4600B24CA5 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41FEEBF19EC7E55A8F69E2EB /* Pods-Toonkung.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toonkung.debug.xcconfig"; path = "Target Support Files/Pods-Toonkung/Pods-Toonkung.debug.xcconfig"; sourceTree = "<group>"; };
+		594CE4681B1A78364DDB477A /* Pods-Toonkung.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toonkung.release.xcconfig"; path = "Target Support Files/Pods-Toonkung/Pods-Toonkung.release.xcconfig"; sourceTree = "<group>"; };
+		C00ED98F6715EAB1EB68C759 /* Pods_Toonkung.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toonkung.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80B3C7523E146BC00BCE7BC /* Toonkung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toonkung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80B3C7823E146BC00BCE7BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C80B3C7A23E146BC00BCE7BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C80B3C7C23E146BC00BCE7BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80B3C7C23E146BC00BCE7BC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C80B3C7F23E146BC00BCE7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C80B3C8123E146BE00BCE7BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C80B3C8423E146BE00BCE7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C80B3C8623E146BE00BCE7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81247B723E1CDD900B24CA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C81247B923E1D11900B24CA5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C81247BA23E1D11900B24CA5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C81247BD23E1DAFF00B24CA5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C81247E323E1EF7D00B24CA5 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		C81247E523E1FA4600B24CA5 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E41ADA29EED3EC6A8AD0F71 /* Pods_Toonkung.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABECE82F11FE29344DBD46B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41FEEBF19EC7E55A8F69E2EB /* Pods-Toonkung.debug.xcconfig */,
+				594CE4681B1A78364DDB477A /* Pods-Toonkung.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C80B3C6C23E146BC00BCE7BC = {
 			isa = PBXGroup;
 			children = (
 				C80B3C7723E146BC00BCE7BC /* Toonkung */,
 				C80B3C7623E146BC00BCE7BC /* Products */,
+				ABECE82F11FE29344DBD46B6 /* Pods */,
+				E84BEA73B7D146F9D71B7C61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +84,50 @@
 			children = (
 				C80B3C7823E146BC00BCE7BC /* AppDelegate.swift */,
 				C80B3C7A23E146BC00BCE7BC /* SceneDelegate.swift */,
-				C80B3C7C23E146BC00BCE7BC /* ViewController.swift */,
-				C80B3C7E23E146BC00BCE7BC /* Main.storyboard */,
+				C81247AE23E159DD00B24CA5 /* Model */,
+				C81247AD23E159C300B24CA5 /* View */,
+				C81247AC23E1599500B24CA5 /* Controller */,
 				C80B3C8123E146BE00BCE7BC /* Assets.xcassets */,
-				C80B3C8323E146BE00BCE7BC /* LaunchScreen.storyboard */,
 				C80B3C8623E146BE00BCE7BC /* Info.plist */,
+				C81247B723E1CDD900B24CA5 /* GoogleService-Info.plist */,
 			);
 			path = Toonkung;
+			sourceTree = "<group>";
+		};
+		C81247AC23E1599500B24CA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C80B3C7C23E146BC00BCE7BC /* WelcomeViewController.swift */,
+				C81247E323E1EF7D00B24CA5 /* TimelineViewController.swift */,
+				C81247E523E1FA4600B24CA5 /* PostViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C81247AD23E159C300B24CA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C80B3C7E23E146BC00BCE7BC /* Main.storyboard */,
+				C81247B923E1D11900B24CA5 /* TableViewCell.swift */,
+				C81247BA23E1D11900B24CA5 /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C81247AE23E159DD00B24CA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C81247BD23E1DAFF00B24CA5 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E84BEA73B7D146F9D71B7C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C00ED98F6715EAB1EB68C759 /* Pods_Toonkung.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C80B3C8923E146BE00BCE7BC /* Build configuration list for PBXNativeTarget "Toonkung" */;
 			buildPhases = (
+				9641721E27ADD5AF031F3CC3 /* [CP] Check Pods Manifest.lock */,
 				C80B3C7123E146BC00BCE7BC /* Sources */,
 				C80B3C7223E146BC00BCE7BC /* Frameworks */,
 				C80B3C7323E146BC00BCE7BC /* Resources */,
+				A33BD528F89DA93AC1651F8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +190,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C80B3C8523E146BE00BCE7BC /* LaunchScreen.storyboard in Resources */,
 				C80B3C8223E146BE00BCE7BC /* Assets.xcassets in Resources */,
+				C81247BC23E1D11900B24CA5 /* TableViewCell.xib in Resources */,
 				C80B3C8023E146BC00BCE7BC /* Main.storyboard in Resources */,
+				C81247B823E1CDDA00B24CA5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9641721E27ADD5AF031F3CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toonkung-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33BD528F89DA93AC1651F8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toonkung/Pods-Toonkung-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toonkung/Pods-Toonkung-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Toonkung/Pods-Toonkung-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C80B3C7123E146BC00BCE7BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C80B3C7D23E146BC00BCE7BC /* ViewController.swift in Sources */,
+				C81247BB23E1D11900B24CA5 /* TableViewCell.swift in Sources */,
+				C80B3C7D23E146BC00BCE7BC /* WelcomeViewController.swift in Sources */,
+				C81247E623E1FA4600B24CA5 /* PostViewController.swift in Sources */,
+				C81247BE23E1DAFF00B24CA5 /* Post.swift in Sources */,
 				C80B3C7923E146BC00BCE7BC /* AppDelegate.swift in Sources */,
 				C80B3C7B23E146BC00BCE7BC /* SceneDelegate.swift in Sources */,
+				C81247E423E1EF7D00B24CA5 /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +265,6 @@
 				C80B3C7F23E146BC00BCE7BC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C80B3C8323E146BE00BCE7BC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C80B3C8423E146BE00BCE7BC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,11 +386,13 @@
 		};
 		C80B3C8A23E146BE00BCE7BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FEEBF19EC7E55A8F69E2EB /* Pods-Toonkung.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NK47D3F5VR;
 				INFOPLIST_FILE = Toonkung/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +406,13 @@
 		};
 		C80B3C8B23E146BE00BCE7BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594CE4681B1A78364DDB477A /* Pods-Toonkung.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NK47D3F5VR;
 				INFOPLIST_FILE = Toonkung/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
